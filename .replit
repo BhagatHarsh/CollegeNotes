@@ -1,0 +1,4 @@
+run="yarn start --host 0.0.0.0"
+
+[nix]
+channel = "stable-21_11"
