@@ -1,47 +1,13 @@
 ---
-sidebar_position: 1
+id: intro
+title: Welcome to College Notes
 ---
 
-# Tutorial Intro
+Welcome to College Notes! This website is designed to provide you with comprehensive lecture notes for various college courses. 
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## How to Use This Site
 
-## Getting Started
+Each course has its own dedicated folder. To access the notes for a specific lecture, simply navigate to the corresponding course folder and select the lecture you're interested in.
 
-Get started by **creating a new site**.
+We hope you find these notes helpful in your studies!
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
