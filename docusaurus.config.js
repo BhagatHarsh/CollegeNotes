@@ -64,6 +64,10 @@ const config = {
                 label: 'VLSI',
                 to: 'docs/VLSI/Lecture-1',
               },
+                {
+                label: 'OS',
+                to: 'docs/OS/Lecture-1',
+              },
             ],
           },
         ],
