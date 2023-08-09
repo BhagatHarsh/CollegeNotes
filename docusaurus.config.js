@@ -35,7 +35,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'CollegeNotes!!',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -44,8 +44,8 @@ const config = {
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
+            position: 'centre',
+            label: 'Notes',
           },
           {
             href: 'https://github.com/BhagatHarsh/CollegeNotes',
