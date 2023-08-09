@@ -44,7 +44,7 @@ const config = {
           {
             type: 'doc',
             docId: 'intro',
-            position: 'centre',
+            position: 'right',
             label: 'Notes',
           },
           {
