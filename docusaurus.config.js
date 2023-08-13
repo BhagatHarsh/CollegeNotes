@@ -52,6 +52,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+            {
+            href: 'https://replit.com/@HarshBhagat1/CollegeNotes',
+            label: 'Replit',
+            position: 'right',
+          },
         ],
       },
       footer: {
@@ -67,6 +72,10 @@ const config = {
                 {
                 label: 'OS',
                 to: 'docs/OS/Lecture-1',
+              },
+                {
+                label: 'ENR203',
+                to: 'docs/ENR-203/Lecture-1',
               },
             ],
           },
