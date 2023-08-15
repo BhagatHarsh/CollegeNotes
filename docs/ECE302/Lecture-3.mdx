@@ -1,0 +1,45 @@
+## AVR Microcontroller and Embedded Systems
+    
+The lecture covers various topics related to the AVR microcontroller and embedded systems. It discusses concepts such as AVR Parallel Port Programming, LEDs, 7-Segment LEDs, ATMEGA Ports, Port Registers, Input and High Impedance, and more.
+
+#### ATMEGA Ports and Port Registers:
+- The AVR microcontroller has four 8-bit I/O ports: Port A, Port B, Port C, and Port D.
+- Each port consists of 8 pins, labeled PA0 to PA7 for Port A, PB0 to PB7 for Port B, PC0 to PC7 for Port C, and PD0 to PD7 for Port D.
+- Each pin can be configured for different purposes: input with internal pull-up, input with no pull-up, output driven low, or output driven high.
+- The port registers, such as PORTA, PORTB, PORTC, and PORTD, control the state of the corresponding output pins. For pins configured as outputs, the PORTx register sets the output value.
+
+#### Input and High Impedance:
+- A pin in the AVR microcontroller can be in different states: input, output high, output low, and high impedance.
+- High impedance means the pin is not actively driving the signal and can be easily influenced by external factors.
+
+#### Time Delay Programs in C:
+- Time delay functions can be implemented using for loops. However, the delay duration can vary based on the clock frequency and compiler.
+- Example time delay function:
+  ```c
+  void delay_100ms(void) {
+      unsigned int i;
+      for (i = 0; i < 42150; i++);
+  }
+  ```
+
+#### Embedded C Programming:
+- Using C for ATmega32 programming offers advantages such as being easier to modify, using function libraries, and being portable to other microcontrollers with minimal modifications.
+- However, C programs tend to result in larger hex files and can be slower compared to assembly programs.
+
+#### LED Interfacing and 7-Segment Displays:
+- LEDs are made of compound semiconductors and can be interfaced with microcontroller I/O pins in two ways: current sourcing (cathodes grounded, logic 1 turns on LEDs) or current sinking (anodes connected to VCC, logic 0 turns on LEDs).
+- 7-Segment displays are used to display numeric digits and characters. They can be common anode or common cathode types.
+
+#### Displaying on 7-Segment LED:
+- For common cathode 7-segment displays, logic 1 turns on a segment. For common anode displays, logic 0 turns on a segment.
+- Example: To display the digit 1 on a common cathode display, a byte value like 00000110 in binary (06H in hex) is used.
+
+### Overall Summary:
+The lecture provides insights into AVR microcontroller programming and embedded systems. It covers topics such as ATMEGA ports and registers, input/output configurations, time delay implementation, LED interfacing, and 7-segment display operation.
+
+### Questions:
+1. Write a program that retrieves data from Port C, displays it on Port B if it's less than 100, and displays it on Port D otherwise.
+2. Write an AVR C program that obtains data from Port C and sends it to Port B if it's less than 100; otherwise, send it to Port D.
+3. Create a program to send numbers from -4 to +4 to external devices.
+4. Modify the previous program to introduce a delay of a few milliseconds between each number.
+5. Write a C program to continuously display the letter "A" on a common cathode 7-segment LED connected to Port A of an AVR controller, with an enable pin on Pin 0 of Port B.
