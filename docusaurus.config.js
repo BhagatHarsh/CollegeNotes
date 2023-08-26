@@ -87,6 +87,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    plugins: ['./canvas-loader']
 };
 
 module.exports = config;
