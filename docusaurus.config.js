@@ -63,21 +63,25 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Quick Links',
-            items: [
-              {
-                label: 'VLSI',
-                to: 'docs/VLSI/Lecture-1',
-              },
-                {
-                label: 'OS',
-                to: 'docs/OS/Lecture-1',
-              },
-                {
-                label: 'ENR203',
-                to: 'docs/ENR-203/Lecture-1',
-              },
-            ],
+            // title: 'Quick Links',
+            // items: [
+            //   {
+            //     label: 'VLSI',
+            //     to: 'docs/VLSI',
+            //   },
+            //     {
+            //     label: 'OS',
+            //     to: 'docs/OS',
+            //   },
+            //     {
+            //     label: 'ENR203',
+            //     to: 'docs/ENR-203',
+            //   },
+            //     {
+            //     label: 'ECE302',
+            //     to: 'docs/ECE302',
+            //   },
+            // ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
