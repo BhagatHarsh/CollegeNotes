@@ -1,41 +1,17 @@
-# Website
+# CollegeNotes - One place for all the lecture summaries and slides.
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+## Development
 
-```
-$ yarn
-```
+- clone the repository
+- `cd CollegeNotes`
+- run `npm i` to install all the latest dependencies
+- run `npm start` it will start the server and serve at `https://localhost:3000/`
 
-### Local Development
+## contributing
+- look inside the `docs/` folder, there you will find folders and files with `.mdx` format.
+- basically it is markdown files that get compiled into reactJs by [Docusaurus](https://docusaurus.io/).
+- whichever new subject you want to add please make a folder of it, and add each lecture as a `.mdx` file with `Lecture-N` format, same goes for slides.
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Leave a ⭐ if this repo helped you!
