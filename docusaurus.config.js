@@ -71,27 +71,17 @@ const config = {
             //     label: 'VLSI',
             //     to: 'docs/VLSI',
             //   },
-            //     {
-            //     label: 'OS',
-            //     to: 'docs/OS',
-            //   },
-            //     {
-            //     label: 'ENR203',
-            //     to: 'docs/ENR-203',
-            //   },
-            //     {
-            //     label: 'ECE302',
-            //     to: 'docs/ECE302',
-            //   },
             // ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Built with ❤️`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      hideableSidebar: true,
+      autoCollapseSidebarCategories: true,
     }),
     plugins: ['./canvas-loader']
 };
