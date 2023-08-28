@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'CollegeNotes',
   tagline: '',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://college-notes-one.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -23,6 +23,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          // This is the property you need to add
+          editUrl: 'https://github.com/BhagatHarsh/CollegeNotes/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
