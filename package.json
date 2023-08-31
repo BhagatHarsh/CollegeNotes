@@ -26,7 +26,8 @@
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-pdf": "^7.3.3"
+    "react-pdf": "^7.3.3",
+    "react-spinners": "^0.13.8"
   },
   "browserslist": {
     "production": [
