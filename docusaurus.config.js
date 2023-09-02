@@ -83,7 +83,8 @@ const config = {
       hideableSidebar: true,
       autoCollapseSidebarCategories: true,
     }),
-    plugins: ['./canvas-loader']
+    plugins: ['./canvas-loader',
+  ]
 };
 
 module.exports = config;
