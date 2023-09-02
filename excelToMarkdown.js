@@ -25,7 +25,7 @@ for (const lecture in videoData) {
   const embedLink = `https://www.youtube.com/embed/${videoId}`;
 
   markdownContent.push(`### ${videoTitle}`);
-  markdownContent.push(`<iframe width="100%" height="600" src="${embedLink}" frameborder="0" allowfullscreen></iframe>\n`);
+  markdownContent.push(`<iframe width="100%" height="600" src="${embedLink}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>\n`);
 }
 
 const markdownText = markdownContent.join('\n');
