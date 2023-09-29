@@ -15,7 +15,14 @@ const videoData = {
   "Lecture_10": "TWbo5Gs3gXQ",
   "Lecture_11": "yIoVjE01RGI",
   "Lecture_12": "YVXyJo1vyfg",
+  "Lecture_14": "Qg8depJuW7c",
+  "Lecture_15": "RQG74t7Yqz4",
+  "Lecture_16": "6wIYMXOwi8Q",
+  "Lecture_17": "zWXzIo1GE6U",
+  "Lecture_19": "1xMhE0qA4as",
+  "Lecture_20": "6ZzYVJqkhTE",
 };
+
 
 const markdownContent = [];
 
