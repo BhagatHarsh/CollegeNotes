@@ -24,7 +24,11 @@ const videoData = {
   "Lecture_21": "fxCIx1Lm2Vk",
   "Lecture_22": "xQypaCBDPW0",
   "Lecture_24": "GUGEsZUzTkU",
-  "Lecture_25": "0PYkT8Y9eOk",
+  "Lecture_26": "pBCBfAjcVDA",
+  "Lecture_28": "oo2XgwGMrM4",
+  "Lecture_29": "QOFbk_DxLEw",
+  "Lecture_30": "XPvZgpMfOtE",
+  "Lecture_31": "3YpkAxpdF04",
 };
 
 
